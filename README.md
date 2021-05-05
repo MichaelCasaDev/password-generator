@@ -1,2 +1,3 @@
-# password-generator
- A simple password generator made in JS!
+# Password Generator
+
+A simple password generator made in JS!
