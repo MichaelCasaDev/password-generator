@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+</head>
+<body>
+    <p id="title">Password Generator</p>
+
+    <span>Strength</span>
+    <select id="strength">
+        <option value="1">Normal</option>
+        <option value="2">High</option>
+    </select>
+    <span>Length</span>
+    <input type="number" id="len" min="16" max="512" value="16">
+
+    <button onclick="start()">Generate!</button>
+
+
+    <p id="passwd"></p>
+</body>
+</html>
